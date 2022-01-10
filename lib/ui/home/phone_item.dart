@@ -131,7 +131,7 @@ class _PhoneItemState extends State<PhoneItem> {
       barrierDismissible: true,
       builder: (context) {
         return confirmDialog(
-            context, 'Xoá', 'Bạn chắc chắn muốn xoá danh bạ này?');
+            context, 'Xoá', 'Bạn chắc chắn muốn xoá thiết bị này?');
       },
     ).then((acceptDelete) {
       if (acceptDelete ?? false) {

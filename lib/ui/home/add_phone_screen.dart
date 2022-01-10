@@ -101,7 +101,7 @@ class _AddPhoneScreenState extends State<AddPhoneScreen> {
                               controller: _priceController,
                               focusNode: _priceNode,
                               keyboardType: TextInputType.number,
-                              labelText: 'Số điện thoại',
+                              labelText: 'Giá',
                               maxLength: 10,
                               onChanged: (value) => _addPhoneBloC.Price = value,
                               onSubmitted: (value) {
@@ -139,7 +139,7 @@ class _AddPhoneScreenState extends State<AddPhoneScreen> {
                               context,
                               controller: _screenController,
                               focusNode: _screenNode,
-                              labelText: 'Địa chỉ',
+                              labelText: 'Độ rộng màn hình',
                               textCapitalization: TextCapitalization.words,
                               maxLength: 50,
                               onChanged: (value) => _addPhoneBloC.Screen = value,
@@ -257,7 +257,7 @@ class _AddPhoneScreenState extends State<AddPhoneScreen> {
       showCupertinoDialog(
         context: context,
         builder: (context) {
-          return succesfulMessageDialog(context, content: 'Thêm danh bạ');
+          return succesfulMessageDialog(context, content: 'Thêm Điện thoại');
         },
       ).then((_) {
         Navigator.pop(context);
