@@ -1,0 +1,38 @@
+[
+    {
+        "Name" : "Samsung a7",
+        "Price" : "123002",
+        "Manufacturer" : "Sam Sung",
+        "Cpu" : "i7",
+        "Screen" : "5 in",
+        "Ram" : " 4 GB",
+        "InternalMemory" : "256 GB"     
+    },
+    {
+        "Name" : "OPPO A5",
+        "Price" : "23423",
+        "Manufacturer" : "OPPO",
+        "Cpu" : "i5",
+        "Screen" : "6 in",
+        "Ram" : " 8 GB",
+        "InternalMemory" : "32 GB"     
+    },   {
+        "Name" : "Xiaomi A8",
+        "Price" : "11223",
+        "Manufacturer" : "Xiaomi",
+        "Cpu" : "i3",
+        "Screen" : "3 in",
+        "Ram" : " 2 GB",
+        "InternalMemory" : "16 GB"     
+    }
+    ,   
+    {
+        "Name" : "Nokia R175",
+        "Price" : "12209",
+        "Manufacturer" : "NoKia",
+        "Cpu" : "i8",
+        "Screen" : "2 in",
+        "Ram" : " 8 GB",
+        "InternalMemory" : "32 GB"     
+    }
+]
